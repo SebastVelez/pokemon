@@ -1,0 +1,24 @@
+FLEX
+display: flex; nos vuelve el contenedor un contenedor flexible
+flex-direction nos permite indicar la direccion del contenedor
+justify-content: nos permite distribuir en el eje de flex direction los elementos
+align-items: nos permite distribuir los elementos en el eje opuesto a flex direction
+flex-wrap: desplaza los elementos en caso que no haya espacio en la fila o columna que estaban
+
+En HIJOS:
+order: el orden es representado por el numero que contiene la etiqueta siendo una secuencia de menor a mayor
+
+flex-grow:
+el 1 le indica al elemento que debe crecer en el espacio mientras que el 2 tambien indica 
+que debe crecer, pero debe ser el doble que el elemento con valor 1
+
+flex-shrink
+el 2 le indica al elemento que debe encogerse en el espacio que hay disponible
+
+
+BEM:
+
+Bloque: es un elemento independiente de la página y  no altera los otros bloques
+Elementos: elemento dentro de un bloque, que no tiene sentido por fuera del bloque
+Modificadores: Permite modificar el comportamiento inicial de un elemento o bloque
+Mezcla: convertir a un bloque a un elemento para modificar la margen

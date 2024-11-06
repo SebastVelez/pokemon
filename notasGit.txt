@@ -1,0 +1,7 @@
+Repositorio es convertir una carpeta en una carpeta para que funcione git
+
+git init convierte una carpeta normal en un repositorio de GIT
+
+git add . prepara mis archivo para ser guardados
+
+git commit -m "first commit"
