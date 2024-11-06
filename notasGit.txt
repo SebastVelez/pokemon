@@ -6,5 +6,9 @@ git add . prepara mis archivo para ser guardados
 
 git commit -m "first commit"  sirve para indicarle a git que debe guardar los cambios
 
+git push origin main me permite subir los cambios al repositorio remoto(en internet)
+
+y git clone me permite clonar un repositorio de internet de manera local
+
 recuerda que git init solo se usa una vez para crear el repositorio de GIT 
 mientras que git add y git commit se usan de manera continua cada que queremos guardar
