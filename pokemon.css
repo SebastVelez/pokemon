@@ -29,7 +29,7 @@ body {
 }
 
 .card {
-  background-color: bisque;
+  background-color: rgb(243, 255, 196);
   border: 1px solid black;
 }
 
@@ -45,8 +45,11 @@ body {
 }
 
 .card__title {
-  font-size: 30px;
+  font-size: 40px;
   color: brown;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .card__image {
