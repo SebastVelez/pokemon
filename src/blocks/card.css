@@ -1,0 +1,27 @@
+.card {
+  background-color: rgb(243, 255, 196);
+  border: 1px solid black;
+}
+
+.card_order_first {
+  order: 0;
+}
+
+.card_order_second {
+  order: 1;
+}
+.card_order_third {
+  order: 2;
+}
+
+.card__title {
+  font-size: 40px;
+  color: brown;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.card__image {
+  width: 100%;
+}

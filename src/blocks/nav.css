@@ -1,0 +1,9 @@
+.nav {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav__link {
+  margin: 20px;
+  cursor: pointer;
+}

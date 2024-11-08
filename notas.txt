@@ -22,3 +22,31 @@ Bloque: es un elemento independiente de la página y  no altera los otros bloque
 Elementos: elemento dentro de un bloque, que no tiene sentido por fuera del bloque
 Modificadores: Permite modificar el comportamiento inicial de un elemento o bloque
 Mezcla: convertir a un bloque a un elemento para modificar la margen
+
+
+
+Rutas - Importar
+ 
+ importar es el proceso de llamar en un archivo otro archivo
+
+ Rutas son el enlace que me lleva hasta el otro archivo
+
+2 tipos de Rutas
+
+1. Rutas absolutas
+
+C:/Usuarios/Intel/documentos/pokemon/pokemon.css
+C:\Users\INTEL\Desktop\pokemon
+
+Desde ciudad de México
+Calle #23 Barrio Colonia, Ciudad de México - Centro Unico Mexico
+
+Desde Argentina
+-Mexico, Ciudad de México, Calle #23 Barrio Colonia, Ciudad de México - Centro Unico Mexico
+
+2. Rutas Relativas
+
+pokemon.html -> pokemon.css
+
+Si tienes  que ir hasta la esquina y girar a la derecha y allí está
+
