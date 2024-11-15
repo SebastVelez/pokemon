@@ -12,3 +12,15 @@ y git clone me permite clonar un repositorio de internet de manera local
 
 recuerda que git init solo se usa una vez para crear el repositorio de GIT 
 mientras que git add y git commit se usan de manera continua cada que queremos guardar
+
+
+
+Trabajo sobre otra version del proyecto y cuando esa version ya este correcta
+las vamos a mezclar
+
+Ramas/branches
+
+git branch nueva-rama
+git checkout -b nueva-rama
+git switch -c nueva-rama
+git switch rama
