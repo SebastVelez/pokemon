@@ -50,3 +50,18 @@ pokemon.html -> pokemon.css
 
 Si tienes  que ir hasta la esquina y girar a la derecha y allí está
 
+
+
+Position:
+
+-Static es el valor por defecto de los elementos
+
+-Absolute rompe la jerarquía del HTML y permite al elemento moverse libremente
+
+-Relative lo que hacemos el elemento sigue normal pero se le permite 
+las propiedades top, left, right, bottom
+
+-Fixed funciona igual que absolute pero mantiene su posición incluso cuando el usuario desplaza la pantalla
+scroll
+
+-Sticky funciona igual que position relative hasta que hay scroll y se convierte en position fixed

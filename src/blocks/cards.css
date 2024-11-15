@@ -1,10 +1,13 @@
 .cards {
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
   margin: auto;
-  width: 1400px;
+  width: 400px;
+  flex-wrap: wrap;
 }
 
 .cards__card {
-  margin-right: 100px;
+  margin-top: 20px;
 }
