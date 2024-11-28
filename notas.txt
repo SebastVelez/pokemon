@@ -65,3 +65,27 @@ las propiedades top, left, right, bottom
 scroll
 
 -Sticky funciona igual que position relative hasta que hay scroll y se convierte en position fixed
+
+Nota: un ID es un identificador unico
+
+Pseudoclases y los PseudoElementos
+
+Las pseudoclases seleccionan estados especiales de un elemento se escriben con dos PseudoElementos
+:hover
+:focus
+:first-child
+:checked
+:disabled
+:active
+
+
+Los pseudoelementos permiten seleccionar o crear elementos que actualmente no existen en el html
+y se escriben con doble dos puntos
+
+::before
+::after
+::first-letter
+::first-line
+::placeholder
+::marker
+

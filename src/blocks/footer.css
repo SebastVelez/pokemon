@@ -6,7 +6,8 @@
 .footer__image {
   width: 300px;
   position: fixed;
+  z-index: 2;
   bottom: 10px;
-  right: 100px;
+  right: 300px;
   height: 300px;
 }

@@ -4,15 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flex</title>
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./src/index.css" />
   </head>
   <body>
     <nav class="nav">
       <a class="nav__link">Mas pokemon</a>
       <a class="nav__link">Sobre tripleTen</a>
     </nav>
-
-    <header class="header">
+    <div class="popup">
+      <form class="popup__form form">
+        <legend class="form__title">Crea tu Carta Pokemon</legend>
+        <input
+          class="form__input-text"
+          type="text"
+          placeholder="Nombre o numero del pokemon"
+        />
+        <input
+          class="form__input-text"
+          type="text"
+          placeholder="apodo del pokemon"
+        />
+        <label class="form__label"
+          >Color de la Carta <input type="color" class="form__input-color"
+        /></label>
+        <input type="submit" class="form__submit" />
+      </form>
+    </div>
+    <header class="header" id="staff">
       <h1 class="header__title header_size_xl">Mi equipo pokemon</h1>
     </header>
     <main class="main">

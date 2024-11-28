@@ -1,0 +1,19 @@
+1. Popup con un formulario en el centro
+
+
+
+3 campos
+
+1 campo nombre - indice
+2. Campo para el apodo del pokemon
+3. campo para el color del fondo
+
+10
+
+Ana 
+
+25
+
+Catalina
+
+Sea un color 

@@ -12,6 +12,10 @@
   cursor: pointer;
 }
 
+.card:hover {
+  background-color: aquamarine;
+}
+
 .card_name_venusaur {
   top: 100px;
 }
