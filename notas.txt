@@ -89,3 +89,12 @@ y se escriben con doble dos puntos
 ::placeholder
 ::marker
 
+
+
+Formatos de fuentes
+
+ttf
+
+woff
+
+woff2
