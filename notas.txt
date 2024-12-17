@@ -94,7 +94,70 @@ y se escriben con doble dos puntos
 Formatos de fuentes
 
 ttf
-
 woff
-
 woff2
+WEBPACK
+
+
+Crear el archivo en el proyecto - usar un gestor de internet
+app Iphone - 
+
+
+Diseño adaptativo y el diseño responsivo
+
+
+Diseño adaptativo no le gusta a google
+
+Diseño responsivo Porque CSS son muy flexibles
+
+mobile-first indexing
+
+Css ofrece muchas facilidades
+
+
+Breakpoint el punto de quiebre es a los 1200px
+
+para solucionar
+
+- unidades Relativas
+
+pixeles no es una unidad relativa
+
+Porcentaje (%) es una unidad relativa al espacio disponible
+width: 1200px 
+
+las media queries
+
+yo quiero, que el tamaño del titulo sea de 80 px, para pantallas de 1280px o más
+y que sea de 40px para pantallas de 1279px o menos
+
+
+las media queries son condiciones para modificar el comportamiento de un elemento
+
+
+Mobile first diseño web
+
+
+Gmail -> una persona no va a usar gmail desde un navegador de celular
+
+
+Instagram 
+
+tiktok
+
+google chrome -> Instagram
+
+ventas
+
+
+unidades relativas
+
+Porcentaje
+REM el tamaño predefinido de la fuente del HTML equivale a 1 REM
+permite estandarizar los tamaños de las fuentes
+
+EM Y REM
+
+
+
+

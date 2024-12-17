@@ -4,8 +4,8 @@
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
 
+  align-items: center;
   row-gap: 20px;
   margin: auto;
   border-radius: 10px;
@@ -48,12 +48,12 @@
 }
 
 .form__submit {
-  height: 50px;
   width: 380px;
   margin-top: 30px;
   border: none;
   border-radius: 5px;
   font-size: 20px;
+  padding: 15px;
   background-color: rgb(86, 151, 255);
   color: white;
   cursor: pointer;
