@@ -1,12 +1,45 @@
 .cards {
-  display: flex;
-  gap: 20px;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px;
-  flex-wrap: wrap;
-  color: white;
+  display: grid;
+  gap: 40px;
+  margin: 40px;
+  grid-template-areas:
+    "venusaur charizard raichu"
+    "totodile totodile totodile"
+    "blastoise blastoise mew";
+}
+.card_name_charizard {
+  grid-area: charizard;
+  background-color: rgb(244, 122, 94);
+}
+
+.card_name_venusaur {
+  background-color: rgb(151, 174, 127);
+  grid-area: venusaur;
+}
+
+.card_name_totodile {
+  background-color: rgb(107, 202, 249);
+  grid-area: totodile;
+}
+.card_name_blastoise {
+  grid-area: blastoise;
+  background-color: rgb(79, 79, 180);
+}
+.card_name_raichu {
+  grid-area: raichu;
+  background-color: rgb(229, 226, 51);
+}
+.card_name_mew {
+  grid-area: mew;
+  background-color: rgb(251, 155, 246);
+}
+
+@media screen AND (max-width: 768px) {
+  .cards {
+    grid-template-areas:
+      "venusaur venusaur"
+      "totodile charizard"
+      "raichu mew"
+      "blastoise .";
+  }
 }
