@@ -1,11 +1,10 @@
 .cards {
-  display: grid;
+  display: flex;
   gap: 40px;
-  margin: 40px;
-  grid-template-areas:
-    "venusaur charizard raichu"
-    "totodile totodile totodile"
-    "blastoise blastoise mew";
+  flex-wrap: wrap;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
 }
 .card_name_charizard {
   grid-area: charizard;
@@ -32,14 +31,4 @@
 .card_name_mew {
   grid-area: mew;
   background-color: rgb(251, 155, 246);
-}
-
-@media screen AND (max-width: 768px) {
-  .cards {
-    grid-template-areas:
-      "venusaur venusaur"
-      "totodile charizard"
-      "raichu mew"
-      "blastoise .";
-  }
 }

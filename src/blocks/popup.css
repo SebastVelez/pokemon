@@ -1,9 +1,24 @@
 .popup {
-  background-color: rgba(0, 0, 0, 0.805);
+  background-color: rgba(0, 0, 0, 0.54);
   top: 0;
   width: 100%;
-  display: none;
   height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   z-index: 1;
+}
+
+.popup_opened {
+  display: flex;
+}
+
+.popup__close {
+  font-size: 50px;
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  right: -40px;
+  top: -50px;
 }

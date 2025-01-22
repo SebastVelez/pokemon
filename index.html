@@ -19,20 +19,14 @@
     </nav>
     <div class="popup">
       <form class="popup__form form">
-        <legend class="form__title">Crea tu Carta Pokemon</legend>
+        <div class="popup__close">X</div>
+        <legend class="form__title">Crea tu equipo pokemon</legend>
         <input
           class="form__input-text"
           type="text"
-          placeholder="Nombre o numero del pokemon"
+          placeholder="Nombre del equipo"
+          value="Equipo A"
         />
-        <input
-          class="form__input-text"
-          type="text"
-          placeholder="apodo del pokemon"
-        />
-        <label class="form__label"
-          >Color de la Carta <input type="color" class="form__input-color"
-        /></label>
         <input type="submit" class="form__submit" />
       </form>
     </div>
@@ -40,6 +34,13 @@
       <h1 class="header__title header_size_xl">Mi equipo pokemon</h1>
     </header>
     <main class="main">
+      <div class="team">
+        <h3 class="team__title">Titulo del equipo</h3>
+        <img
+          class="team__button"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5-8Chu2Jala7WIXFNYCt4PY78NzZng1MVcw&s"
+        />
+      </div>
       <section class="cards">
         <div class="card card_name_venusaur">
           <h3 class="card__title">Venusaur</h3>
@@ -86,5 +87,6 @@
         </div>
       </section>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
